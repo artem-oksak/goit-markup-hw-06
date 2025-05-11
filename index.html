@@ -35,11 +35,17 @@
                     </li>
                 </ul>
             </address>
+
+            <button class="burger-btn" type="button">
+                <svg class="burger-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-burger"></use>
+                </svg>
+            </button>
         </div>
     </header>
 
     <main>
-        <section class="section-strategy">
+        <section class="hidden section-strategy">
             <div class="container">
                 <h1 class="header-one">Effective Solutions for Your Business</h1>
                 <button type="button" class="button-order-service">
@@ -48,7 +54,7 @@
             </div>
         </section>
 
-        <section class="section-two">
+        <section class="hidden section-two">
             <div class="container">
                 <h2 class="visually-hidden">Strategy</h2>
                 <ul class="feature-list">
@@ -104,7 +110,7 @@
             </div>
         </section>
 
-        <section class="section-our-team">
+        <section class="hidden section-our-team">
             <div class="container">
                 <h2 class="header-two">Our Team</h2>
                 <ul class="our-team-list">
@@ -260,7 +266,7 @@
             </div>
         </section>
 
-        <section class="section-portfolio">
+        <section class=" hidden section-portfolio">
             <div class="container">
                 <h2 class="header-two">Our Portfolio</h2>
                 <ul class="portfolio-list">
@@ -347,7 +353,7 @@
         </section>
     </main>
 
-    <footer class="footer">
+    <footer class="hidden footer">
         <div class="footer-common-container container">
         <div class="footer-logo-container">
             <a href="./index.html" class="logo-web">Web<span class="logo-studio">Studio</span></a>
@@ -410,7 +416,7 @@
 
 
 
-<div class="popup is-open">
+<div class=" hidden popup is-open">
 <div class="modal">
     <button type="button" class="close-button">
         <svg class="icon-popup" width="8" height="8"> <use  href="./images/icons.svg#icon-cross"></use></svg>
@@ -464,7 +470,7 @@
                         </div>
                     </div>
 
-                    <div class="form-comment">
+                    <div class=" form-comment">
                         <label class="popup-field" for="user-comment">Comment</label>
                         <textarea 
                         class="popup-textarea"
