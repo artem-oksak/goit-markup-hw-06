@@ -68,7 +68,7 @@ button {
 @media screen and (min-width: 768px) {
     .container {
         max-width: 768px;
-        padding: 0 32px;
+        padding: 0 16px;
     }
 }
 
@@ -290,7 +290,7 @@ button {
     background-position: center;
     background-repeat: no-repeat;
 }
-
+exit
 .header-one {
     font-size: 36px;
     line-height: 1.11;
@@ -327,8 +327,7 @@ button {
 @media screen and (min-width: 1158px) {
     .section-strategy {
         padding: 188px 0;
-        width: 1440px;
-        height: 600px;
+        max-width: 1440px;
         margin: 0 auto;
         box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
     }
@@ -392,7 +391,7 @@ button {
 .mobile-menu-container {
     position: relative;
     width: 320px;
-    height: 640px;
+    height: 100%;
     background-color: #ffffff;
     margin-left: auto;
     padding: 72px 16px 40px 16px;
@@ -610,13 +609,14 @@ list-style: none;
 
 .social-media-list {
     display: flex;
-    justify-content: center;
-    gap: 24px;
+    justify-content: flex-start;
+    gap: 40px;
 }
 
 .social-media-list-item {
     width: 40px;
     height: 40px;
+    
 }
 
 .social-media-list-item-link {
